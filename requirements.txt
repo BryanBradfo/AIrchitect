@@ -1,2 +1,8 @@
-conda activate pixtral_env
-conda list -e > requirements.txt
+torch
+torchvision
+torchaudio
+transformers
+bitsandbytes
+accelerate
+pillow
+gradio
