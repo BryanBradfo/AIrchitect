@@ -13,13 +13,17 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
 </p>
 
-**AIrchitect** is an interactive demo application that leverages Mistral AI's multi-modal model, **Pixtral**, to act as an expert interior design assistant. The application allows users to visualize how a catalog product would fit into their own living space.
+**AIrchitect** is an interactive application that leverages Mistral AI's multi-modal model, **Pixtral**, to act as an expert interior design assistant. The application allows users to visualize how a catalog product would fit into their own living space.
+
+---
+
+## What is it about?
 
 This project implements a **RAG (Retrieval-Augmented Generation)** architecture to provide personalized and contextual recommendations by combining visual information (images) with textual data (product specifications).
 
 ![Demo GIF of the application in action](gif/demo.gif) <!-- A GIF is highly recommended to showcase your project! -->
 
-## ✨ Key Features
+## Key Features
 
 - **Interactive Chat Interface**: A smooth and intuitive conversational experience built with Gradio.
 - **Multi-modal Analysis**: Simultaneous processing of multiple images (product + user's room) and text.
@@ -27,7 +31,7 @@ This project implements a **RAG (Retrieval-Augmented Generation)** architecture 
 - **Simple Setup & Reproducibility**: Fully configured within a Conda environment for perfect reproducibility.
 - **State-of-the-Art Model**: Powered by `mistral-community/pixtral-12b` with 4-bit quantization for efficient execution on a single GPU.
 
-## 🚀 Quick Start
+## Quick Start
 
 Follow these steps to run the application on your local machine (NVIDIA GPU with CUDA required).
 
@@ -56,7 +60,7 @@ python app_mistral.py
 ```
 Open the local URL provided by Gradio in your browser and start decorating!
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **LLM Model**: Mistral Pixtral-12B
 - **Core Libraries**: PyTorch, Transformers (Hugging Face), bitsandbytes
