@@ -3,14 +3,8 @@
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/9a4b26f0-2bff-49c4-85ab-648f41479fc2">
-        <img src="https://github.com/user-attachments/assets/9a4b26f0-2bff-49c4-85ab-648f41479fc2" alt="AIrchitect" width="500">
+        <img src="https://github.com/user-attachments/assets/9a4b26f0-2bff-49c4-85ab-648f41479fc2" alt="AIrchitect" width="400">
     </picture>
-</p>
-
-<p align="center">
-  <a href="https://github.com/BryanBradfo/AIrchitect/actions/workflows/ci.yml?branch=main"><img src="https://img.shields.io/github/actions/workflow/status/BryanBradfo/AIrchitect/ci.yml?branch=main&style=for-the-badge" alt="CI status"></a>
-  <a href="https://github.com/BryanBradfo/AIrchitect/releases"><img src="https://img.shields.io/github/v/release/BryanBradfo/AIrchitect?include_prereleases&style=for-the-badge" alt="GitHub release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
 </p>
 
 **AIrchitect** is an interactive application that leverages Mistral AI's multi-modal model, **Pixtral**, to act as an expert interior design assistant. The application allows users to visualize how a catalog product would fit into their own living space.
@@ -19,9 +13,12 @@
 
 ## What is it about?
 
-This project implements a **RAG (Retrieval-Augmented Generation)** architecture to provide personalized and contextual recommendations by combining visual information (images) with textual data (product specifications).
+**RAG (Retrieval-Augmented Generation)** architecture to provide personalized and contextual recommendations by combining visual information (images) with textual data (product specifications).
 
-![Demo GIF of the application in action](gif/demo.gif) <!-- A GIF is highly recommended to showcase your project! -->
+<p align="center">
+    <source media="(prefers-color-scheme: light)" srcset="gif/demo.gif">
+    <img src="gif/demo.gif" alt="AIrchitect" width="1300>
+</p>
 
 ## Key Features
 
